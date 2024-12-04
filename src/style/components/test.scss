@@ -1,0 +1,45 @@
+.test {
+    padding: 40px 40px 0 40px;
+    background-color: #F7F7F7;
+    height: 528px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+    &-title {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29.26px;
+        margin-bottom: 20px;
+    }
+
+    &-variant {
+        line-height: 19.5px;
+        margin-bottom: 20px;
+    }
+}
+
+label {
+    display: flex;
+    cursor: pointer;
+
+    input[type="radio"] {
+        display: none;
+    }
+
+    input[type="radio"]:checked+.custom-radio {
+        width: 20px;
+        height: 20px;
+        background-color: #3300FF;
+        border: 1px solid #3300FF;
+    }
+
+    .custom-radio {
+        flex: 0 0 20px;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 1px solid #000000;
+        margin-right: 20px;
+    }
+
+}

@@ -1,0 +1,28 @@
+.questions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+    font-weight: 700;
+}
+
+.progressbar {
+    height: 12px;
+    background-color: #F7F7F7;
+    border-radius: 99px;
+}
+
+.progress {
+    background-color: #3300FF;
+    height: 12px;
+    border-radius: 99px;
+    position: relative;
+    transition: 0.2s ease;
+
+    &-count {
+        font-weight: 700;
+        line-height: 19.5px;
+        position: absolute;
+        bottom: -21px;
+        right: 1px;
+    }
+}
