@@ -45,7 +45,7 @@ export const Result: React.FC<ResultProps> = ({ answers }) => {
             }
         </ul>
 
-        {correctedAnswer !== data.length && (<a className='again' href='/'><button className='again-btn'>Пройти еще раз</button></a>)}
+        {correctedAnswer !== data.length && (<a className='again' href='/questions/'><button className='again-btn'>Пройти еще раз</button></a>)}
 
     </>
 }
